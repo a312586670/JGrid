@@ -104,7 +104,8 @@ grid.reLoad(option);
 ```
 
 Refresh方法:
-
+------------
+```
 var option = {    
     dataParam:{
         enabled: $("#pageType2").val(),//搜索的参数一    
@@ -113,3 +114,4 @@ var option = {
     } 
 }    
 grid.Refresh(option);
+```
